@@ -313,4 +313,39 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 
 
+## 4 Benchmarks
+
+### 4.1 Generic Detection
+
+1. `Pascal VOC`: **The pascal visual object classes (voc) challenge**, *M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, A. Zisserman*, [[OpenAccess](http://host.robots.ox.ac.uk/pascal/VOC/pubs/everingham10.pdf)], [[Project](http://host.robots.ox.ac.uk/pascal/VOC/)]
+2. `ImageNet`: **Imagenet: A large-scale hierarchical image database**, * J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, L. Fei-Fei*, [[OpenAccess](http://www.image-net.org/papers/imagenet_cvpr09.pdf)], [[Project](http://www.image-net.org/)]
+3. `MSCOCO`: **Microsoft COCO: Common Objects in Context**, *T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, C. L. Zitnick*, [[OpenAccess](https://arxiv.org/pdf/1405.0312)], [[Project](http://cocodataset.org/)]
+4. `Open Images`: **The open images dataset v4: Unified image classification, object detection, and visual relationship detection at scale**, *A. Kuznetsova, H. Rom, N. Alldrin, J. Uijlings, I. Krasin, J. Pont-Tuset, S. Kamali, S. Popov, M. Malloci, T. Duerig, et al.*, [[OpenAccess](https://arxiv.org/abs/1811.00982)], [[Project](https://opensource.google.com/projects/open-images-dataset)]
+5. `LVIS`: **Lvis: A dataset for large vocabulary instance segmentation**, *A. Gupta, P. Dollar, R. Girshick*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gupta_LVIS_A_Dataset_for_Large_Vocabulary_Instance_Segmentation_CVPR_2019_paper.pdf)], [[Project](https://www.lvisdataset.org/)]
+
+### 4.2 Face Detection
+
+1. `WIDER FACE`: **Wider face: A face detection benchmark**, *S. Yang, P. Luo, C.-C. Loy, X. Tang*, [[OpenAccess](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf)], [[Project](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace)]
+2. `FDDB`: **Fddb: A benchmark for face detection in unconstrained settings**, *V. Jain, E. Learned-Miller*, [[OpenAccess](http://vis-www.cs.umass.edu/fddb/fddb.pdf)], [[Project](http://vis-www.cs.umass.edu/fddb/)]
+3. `PASCAL FACE`: **The pascal visual object classes (voc) challenge**, *M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, A. Zisserman*, [[OpenAccess](http://host.robots.ox.ac.uk/pascal/VOC/pubs/everingham10.pdf)], [[Project](http://host.robots.ox.ac.uk/pascal/VOC/)]
+4. `MALF`: **Automatic Face and Gesture Recognition (FG)**, *Yang, Bin and Yan, Junjie and Lei, Zhen and Li, Stan Z*, [[OpenAccess](http://www.cbsr.ia.ac.cn/faceevaluation/faceevaluation15.pdf)], [[Project](http://www.cbsr.ia.ac.cn/faceevaluation/)]
+5. `AFW`: **Face detection, pose estimation and landmark localization in the wild**, *X. Zhu, D. Ramanan*, [[OpenAccess](http://www.cs.cmu.edu/~deva/papers/face/face-cvpr12.pdf)], [[Project](http://www.cs.cmu.edu/~deva/papers/face/index.html)]
+
+### 4.3 Pedestrian Detection
+
+1.`CityPersons`: **Citypersons: A diverse dataset for pedestrian detection**, *S. Zhang, R. Benenson, B. Schiele*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2017/supplemental/Zhang_CityPersons_A_Diverse_2017_CVPR_supplemental.pdf)], [[Project](https://www.cityscapes-dataset.com)]
+2. `Caltech`: **Pedestrian detection: An evaluation of the state of the art**, *P. Dollar, C. Wojek, B. Schiele, P. Perona*, [[OpenAccess](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.402.6884&rep=rep1&type=pdf)], [[Project](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)]
+3. `ETH`: **Depth and appearance for mobile scene analysis**, *A. Ess, B. Leibe, L. Van Gool*, [[OpenAccess](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.212.8331&rep=rep1&type=pdf)], [[Project](https://data.vision.ee.ethz.ch/cvl/aess/iccv2007/)]
+4. `INRIA`: **Histograms of oriented gradients for human detection**, *N. Dalal, B. Triggs*, [[OpenAccess](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)], [[Project](http://pascal.inrialpes.fr/data/human/)]
+5. `KITTI`: **Vision meets robotics: The kitti dataset**, *A. Geiger, P. Lenz, C. Stiller, R. Urtasun*, [[OpenAccess](http://www.cvlibs.net/publications/Geiger2013IJRR.pdf)], [[Project](http://www.cvlibs.net/datasets/kitti/)]
+
+
+## 5. SOTA
+
+### 5.1 MSCOCO
+
+### 5.2 Pascal VOC
+
+
+
 
