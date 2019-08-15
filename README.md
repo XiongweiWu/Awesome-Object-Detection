@@ -333,7 +333,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 ### 4.3 Pedestrian Detection
 
-1.`CityPersons`: **Citypersons: A diverse dataset for pedestrian detection**, *S. Zhang, R. Benenson, B. Schiele*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2017/supplemental/Zhang_CityPersons_A_Diverse_2017_CVPR_supplemental.pdf)], [[Project](https://www.cityscapes-dataset.com)]
+1. `CityPersons`: **Citypersons: A diverse dataset for pedestrian detection**, *S. Zhang, R. Benenson, B. Schiele*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2017/supplemental/Zhang_CityPersons_A_Diverse_2017_CVPR_supplemental.pdf)], [[Project](https://www.cityscapes-dataset.com)]
 2. `Caltech`: **Pedestrian detection: An evaluation of the state of the art**, *P. Dollar, C. Wojek, B. Schiele, P. Perona*, [[OpenAccess](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.402.6884&rep=rep1&type=pdf)], [[Project](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)]
 3. `ETH`: **Depth and appearance for mobile scene analysis**, *A. Ess, B. Leibe, L. Van Gool*, [[OpenAccess](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.212.8331&rep=rep1&type=pdf)], [[Project](https://data.vision.ee.ethz.ch/cvl/aess/iccv2007/)]
 4. `INRIA`: **Histograms of oriented gradients for human detection**, *N. Dalal, B. Triggs*, [[OpenAccess](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)], [[Project](http://pascal.inrialpes.fr/data/human/)]
