@@ -239,70 +239,56 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 ## 2. Face Detection
 
-1. K. Zhang, Z. Zhang, Z. Li, Y. Qiao, Jjoint face detection and alignment using multi-task cascaded convolutional networks, in: IEEE Signal Processing Letters, 2016. 
-2. Y. Wang, X. Ji, Z. Zhou, H. Wang, Z. Li, Detecting faces using region-based fully convolutional networks, in: arXiv preprint arXiv:1709.05256, 2017. 
-3. K. Zhang, Z. Zhang, H. Wang, Z. Li, Y. Qiao, W. Liu, Detecting faces using inside cascaded contextual cnn, in: ICCV, 2017. 
-4. C. Zhu, Y. Zheng, K. Luu, M. Savvides, Cms-rcnn: Contextual multiscale region-based cnn for unconstrained face detection, in: Deep Learning for Biometrics, 2017.
-5. H. Wang, Z. Li, X. Ji, Y. Wang, Face r-cnn, in: arXiv preprint arXiv:1706.01061, 2017. 
-6. Z. Hao, Y. Liu, H. Qin, J. Yan, X. Li, X. Hu, Scale-aware face detection, in: CVPR, 2017.
-7. M. Najibi, P. Samangouei, R. Chellappa, L. Davis, Ssh: Single stage headless face detector, in: ICCV, 2017.
-8. J. Zhang, X. Wu, J. Zhu, S. C. Hoi, Feature agglomeration networks for single stage face detection, in: arXiv preprint arXiv:1712.00721, 2017.
+1. **Joint face detection and alignment using multi-task cascaded convolutional networks**, *K. Zhang, Z. Zhang, Z. Li, Y. Qiao*， in: IEEE Signal Processing Letters, 2016. [[OpenAccess](https://arxiv.org/abs/1604.02878)], [[Caffe](https://github.com/kuaikuaikim/MTCNN-1)], `MTCNN`
+2. **Detecting faces using region-based fully convolutional networks**, *Y. Wang, X. Ji, Z. Zhou, H. Wang, Z. Li*, in: arXiv preprint arXiv:1709.05256, 2017. [[OpenAccess](https://arxiv.org/abs/1709.05256)], `Face R-FCN`
+3. **Detecting faces using inside cascaded contextual cnn**,  *K. Zhang, Z. Zhang, H. Wang, Z. Li, Y. Qiao, W. Liu*, in: ICCV, 2017. [[OpenAccess](https://ai.tencent.com/ailab/media/publications/Detecting_Faces_Using_Inside_Cascaded_Contextual_CNN.pdf)]
+4. **Cms-rcnn: Contextual multiscale region-based cnn for unconstrained face detection**, *C. Zhu, Y. Zheng, K. Luu, M. Savvides*, in: Deep Learning for Biometrics, 2017. [[OpenAccess](https://arxiv.org/abs/1606.05413)], `CMS-RCNN`
+5. **Face r-cnn**, *H. Wang, Z. Li, X. Ji, Y. Wang*, in: arXiv preprint arXiv:1706.01061, 2017. [[OpenAccess](https://arxiv.org/abs/1706.01061)], `Face R-CNN`
+6. **Scale-aware face detection**, *Z. Hao, Y. Liu, H. Qin, J. Yan, X. Li, X. Hu*, in: CVPR, 2017. [[OpenAccess](https://arxiv.org/abs/1706.09876)]
+7. **Ssh: Single stage headless face detector**, *M. Najibi, P. Samangouei, R. Chellappa, L. Davis*, in: ICCV, 2017. [[OpenAccess](https://arxiv.org/abs/1708.03979)], [[Caffe](https://github.com/mahyarnajibi/SSH)], `SSH`
+8. **Feature agglomeration networks for single stage face detection**, *J. Zhang, X. Wu, J. Zhu, S. C. Hoi,* in: arXiv preprint arXiv:1712.00721, 2017. [[OpenAccess](https://arxiv.org/abs/1712.00721)], `FANet`
 9. **Finding tiny faces**, *P. Hu, D. Ramanan*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf)], [[MatConvNet](https://github.com/peiyunh/tiny)], `S3FD`
 10. **S3fd: Single shot scale-invariant face detector**, *S. Zhang, X. Zhu, Z. Lei, H. Shi, X. Wang, S. Z. Li*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_S3FD_Single_Shot_ICCV_2017_paper.pdf)], [[Caffe](https://github.com/sfzhang15/SFD)], `S3FD`
 11. **Recurrent scale approximation for object detection in cnn**, *Y. Liu, H. Li, J. Yan, F. Wei, X. Wang, X. Tang*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Recurrent_Scale_Approximation_ICCV_2017_paper.pdf)], [[Caffe](https://github.com/sciencefans/RSA-for-object-detection)], `RSA`
-12. B. Yu, D. Tao, Anchor cascade for efficient face detection, in: arXiv preprint arXiv:1805.03363, 2018.
-13. C. Zhang, X. Xu, D. Tu, Face detection using improved faster rcnn, in: arXiv preprint arXiv:1802.02142, 2018.
-14. P. Samangouei, M. Najibi, L. Davis, R. Chellappa, Face-magnet: Magnifying feature maps to detect small faces, in: arXiv preprint arXiv:1803.05258, 2018.
-15. C. Chi, S. Zhang, J. Xing, Z. Lei, S. Z. Li, X. Zou, Selective refinement network for high performance face detection, in: arXiv preprint arXiv:1809.02693, 2018.
-16. X. Tang, D. K. Du, Z. He, J. Liu, Pyramidbox: A context-assisted single shot face detector, in: ECCV, 2018.
-17. X. Sun, P. Wu, S. C. Hoi, Face detection using deep learning: An improved faster rcnn approach, in: Neurocomputing, 2018.
+12. **Anchor cascade for efficient face detection**, *B. Yu, D. Tao*, in: arXiv preprint arXiv:1805.03363, 2018. [[OpenAccess](https://arxiv.org/abs/1805.03363)]
+13. **Face detection using improved faster rcnn**, *C. Zhang, X. Xu, D. Tu*, in: arXiv preprint arXiv:1802.02142, 2018. [[OpenAccess](https://arxiv.org/abs/1802.02142)], [[Caffe](https://github.com/playerkk/face-py-faster-rcnn)]
+14. **Face-magnet: Magnifying feature maps to detect small faces**, *P. Samangouei, M. Najibi, L. Davis, R. Chellappa*, in: arXiv preprint arXiv:1803.05258, 2018. [[OpenAccess](https://arxiv.org/abs/1803.05258)], [[Caffe](https://github.com/po0ya/face-magnet)]
+15. **Selective refinement network for high performance face detection**, *C. Chi, S. Zhang, J. Xing, Z. Lei, S. Z. Li, X. Zou*, in: arXiv preprint arXiv:1809.02693, 2018. [[OpenAccess](https://arxiv.org/abs/1809.02693)], [[Pytorch](https://github.com/ChiCheng123/SRN)], `SRN`
+16. **Pyramidbox: A context-assisted single shot face detector**, *X. Tang, D. K. Du, Z. He, J. Liu*, in: ECCV, 2018. [[OpenAccess](https://arxiv.org/abs/1803.07737)], [[TensorFlow](https://github.com/EricZgw/PyramidBox)]
+17. **Face detection using deep learning: An improved faster rcnn approach**, *X. Sun, P. Wu, S. C. Hoi*, in: Neurocomputing, 2018. [[OpenAccess](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5000&context=sis_research)]
 18. **Seeing small faces from robust anchors perspective**, *C. Zhu, R. Tao, K. Luu, M. Savvides*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3468.pdf)]
-19. J. Li, Y. Wang, C. Wang, Y. Tai, J. Qian, J. Yang, C. Wang, J. Li, F. Huang, Dsfd: Dual shot face detector, in: CVPR, 2019.
+19. **Dsfd: Dual shot face detector**, *J. Li, Y. Wang, C. Wang, Y. Tai, J. Qian, J. Yang, C. Wang, J. Li, F. Huang*, in: CVPR, 2019. [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_DSFD_Dual_Shot_Face_Detector_CVPR_2019_paper.pdf)], [[Pytorch](https://github.com/TencentYoutuResearch/FaceDetection-DSFD)], `DSFD`
 
 
 ## 3. Pedestrian Detection
 
-1. **A general framework for object detection**, *C. P. Papageorgiou, M. Oren, T. Poggio*, in: ICCV, 1998.
-2. **Bilattice-based logical reasoning for human detection**, *V. D. Shet, J. Neumann, V. Ramesh, L. S. Davis*, in: CVPR, 2007.
-3. **Integral channel features**, *P. Dollar, Z. Tu, P. Perona, S. Belongie*, in: BMVC, 2009.
-4. **A structural filter approach to human detection**, *G. Duan, H. Ai, S. Lao*, in: ECCV, 2010.
-5. **Multi-cue pedestrian classification with partial occlusion handling**, *M. Enzweiler, A. Eigenstetter, B. Schiele, D. M. Gavrila*, in: CVPR, 2010.
-6. **A discriminative deep model for pedestrian detection with occlusion handling**, *W. Ouyang, X. Wang*, in: CVPR, 2012.
-7. **Modeling mutual visibility relationship in pedestrian detection**, *W. Ouyang, X. Zeng, X. Wang*, in: CVPR, 2013.
-8. **Single-pedestrian detection aided by multi-pedestrian detection**, *W. Ouyang, X. Wang*, in: CVPR, 2013.
-9. P. Sermanet, K. Kavukcuoglu, S. Chintala, Y. LeCun, Pedestrian detection with unsupervised multi-stage feature learning, in: CVPR, 2013
-10. W. Ouyang, X. Wang, Joint deep learning for pedestrian detection, in: ICCV, 2013.
-11. M. Mathias, R. Benenson, R. Timofte, L. Van Gool, Handling occlusions with franken-classifiers, in: ICCV, 2013.
-12. R. Benenson, M. Omran, J. Hosang, B. Schiele, Ten years of pedestrian detection, what have we learned?, in: ECCV, 2014
-13. Z. Cai, M. Saberian, N. Vasconcelos, Learning complexity-aware cascades for deep pedestrian detection, in: ICCV, 2015.
+1. **Bilattice-based logical reasoning for human detection**, *V. D. Shet, J. Neumann, V. Ramesh, L. S. Davis*, in: CVPR, 2007. [[OpenAccess](https://ieeexplore.ieee.org/document/4270158)]
+2. **Integral channel features**, *P. Dollar, Z. Tu, P. Perona, S. Belongie*, in: BMVC, 2009. [[OpenAccess](https://pages.ucsd.edu/~ztu/publication/dollarBMVC09ChnFtrs_0.pdf)], [[Project](https://pdollar.github.io/toolbox/)], `ICF`
+3. **A structural filter approach to human detection**, *G. Duan, H. Ai, S. Lao*, in: ECCV, 2010. [[OpenAccess](https://link.springer.com/chapter/10.1007/978-3-642-15567-3_18)]
+4. **Multi-cue pedestrian classification with partial occlusion handling**, *M. Enzweiler, A. Eigenstetter, B. Schiele, D. M. Gavrila*, in: CVPR, 2010. [[OpenAccess](http://gavrila.net/Publications/cvpr10_occlusion.pdf)]
+5. **A discriminative deep model for pedestrian detection with occlusion handling**, *W. Ouyang, X. Wang*, in: CVPR, 2012. [[OpenAccess](http://islab.ulsan.ac.kr/files/announcement/437/A%20Discriminative%20Deep%20Model%20for%20Pedestrian%20Detection%20with%20Occlusion%20Handling.pdf)]
+6. **Modeling mutual visibility relationship in pedestrian detection**, *W. Ouyang, X. Zeng, X. Wang*, in: CVPR, 2013. [[OpenAccess](http://www.ee.cuhk.edu.hk/~xgwang/papers/ouyangZWcvpr13.pdf)]
+7. **Single-pedestrian detection aided by multi-pedestrian detection**, *W. Ouyang, X. Wang*, in: CVPR, 2013. [[OpenAccess](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Ouyang_Single-Pedestrian_Detection_Aided_2013_CVPR_paper.pdf)]
+8. **Pedestrian detection with unsupervised multi-stage feature learning**, *P. Sermanet, K. Kavukcuoglu, S. Chintala, Y. LeCun*, in: CVPR, 2013. [[OpenAccess](https://arxiv.org/abs/1212.0142)]
+9. **Joint deep learning for pedestrian detection**, *W. Ouyang, X. Wang*, in: ICCV, 2013. [[OpenAccess](http://www.ee.cuhk.edu.hk/~xgwang/papers/ouyangWiccv13.pdf)]
+10. **Handling occlusions with franken-classifiers**, *M. Mathias, R. Benenson, R. Timofte, L. Van Gool*, in: ICCV, 2013. [[OpenAccess](http://rodrigob.github.io/documents/2013_iccv_occlusions_with_supplementary_material.pdf)]
+11. **Ten years of pedestrian detection, what have we learned?**, *R. Benenson, M. Omran, J. Hosang, B. Schiele*, in: ECCV, 2014. [[OpenAccess](https://rodrigob.github.io/documents/2014_eccvw_ten_years_of_pedestrian_detection_with_supplementary_material.pdf)]
+12. 27. **Detection and tracking of occluded people**, *S. Tang, M. Andriluka, B. Schiele*, in: IJCV, 2014. [[OpenAccess](https://dl.acm.org/citation.cfm?id=2674557)]
+13. **Learning complexity-aware cascades for deep pedestrian detection**, *Z. Cai, M. Saberian, N. Vasconcelos*, in: ICCV, 2015. [[OpenAccess](http://openaccess.thecvf.com/content_iccv_2015/papers/Cai_Learning_Complexity-Aware_Cascades_ICCV_2015_paper.pdf)]
 14. **Taking a deeper look at pedestrians**, *J. Hosang, M. Omran, R. Benenson, B. Schiele*, [[OpenAccess](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hosang_Taking_a_Deeper_2015_CVPR_paper.pdf)]
-15. Y. Tian, P. Luo, X. Wang, X. Tang, Deep learning strong parts for pedestrian detection, in: CVPR, 2015.
+15. **Deep learning strong parts for pedestrian detection**, *Y. Tian, P. Luo, X. Wang, X. Tang*, in: CVPR, 2015. [[OpenAccess](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Tian_Deep_Learning_Strong_ICCV_2015_paper.pdf)]
 16. **A unified multi-scale deep convolutional neural network for fast object detection**, *Z. Cai, Q. Fan, R. S. Feris, N. Vasconcelos*, [[OpenAccess](http://www.eccv2016.org/files/posters/P-2B-38.pdf)], [[Caffe](https://github.com/zhaoweicai/mscnn)], `MSCNN`
-17. Y. Zhou, L. Liu, L. Shao, M. Mellor, Dave: A unified framework for fast vehicle detection and annotation, in: ECCV, 2016
-18. L. Zhang, L. Lin, X. Liang, K. He, Is faster r-cnn doing well for pedestrian detection?, in: ECCV, 2016.
+17. **Dave: A unified framework for fast vehicle detection and annotation**, *Y. Zhou, L. Liu, L. Shao, M. Mellor*, in: ECCV, 2016. [[OpenAccess](https://arxiv.org/abs/1607.04564)]
+18. **Is faster r-cnn doing well for pedestrian detection?**, *L. Zhang, L. Lin, X. Liang, K. He*, in: ECCV, 2016. [[OpenAccess](http://kaiminghe.com/publications/eccv16ped.pdf)], [[Caffe](https://github.com/zhangliliang/RPN_BF)]
 19. **Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers**, *F. Yang, W. Choi, Y. Lin*, [ [OpenAccess](http://openaccess.thecvf.com/content_cvpr_2016/html/Yang_Exploit_All_the_CVPR_2016_paper.html)], `SDP-CRC`
 20. **Accurate single stage detector using recurrent rolling convolution**, *J. Ren, X. Chen, J. Liu, W. Sun, J. Pang, Q. Yan, Y.-W. Tai, L. Xu*, [[OpenAccess](http://zpascal.net/cvpr2017/Ren_Accurate_Single_Stage_CVPR_2017_paper.pdf)], [[Caffe](https://github.com/xiaohaoChen/rrc_detection)], `RRC`
-21. J. Mao, T. Xiao, Y. Jiang, Z. Cao, What can help pedestrian detection?, in: CVPR, 2017
-22. D. Xu, W. Ouyang, E. Ricci, X. Wang, N. Sebe, Learning cross-modal deep representations for robust pedestrian detection, in: CVPR, 2017.
-23. X. Wang, T. Xiao, Y. Jiang, S. Shao, J. Sun, C. Shen, Repulsion loss: Detecting pedestrians in a crowd, in: CVPR, 2018
-24. C. Zhou, J. Yuan, Bi-box regression for pedestrian detection and occlusion estimation, in: ECCV, 2018.
-25. S. Zhang, L. Wen, X. Bian, Z. Lei, S. Z. Li, Occlusion-aware r-cnn: Detecting pedestrians in a crowd, in: ECCV, 2018.
-26. **Scale-aware fast r-cnn for pedestrian detection**, *J. Li, X. Liang, S. Shen, T. Xu, J. Feng, S. Yan*,  [[Arxiv](https://arxiv.org/pdf/1510.08160)], TMM, `SAF R-CNN`
-27. S. Tang, M. Andriluka, B. Schiele, Detection and tracking of occluded people, in: IJCV, 2014.
-28. S. Wang, J. Cheng, H. Liu, M. Tang, Pcn: Part and context information for pedestrian detection with cnns, in: arXiv preprint arXiv:1804.04483, 2018.
-
-
-
-
-
-
-
-
-
-
-
-
-
+21. **What can help pedestrian detection?**, *J. Mao, T. Xiao, Y. Jiang, Z. Cao*, in: CVPR, 2017. [[OpenAccess](http://zpascal.net/cvpr2017/Mao_What_Can_Help_CVPR_2017_paper.pdf)]
+22. **Learning cross-modal deep representations for robust pedestrian detection**, *D. Xu, W. Ouyang, E. Ricci, X. Wang, N. Sebe*, in: CVPR, 2017. [[OpenAccess](https://arxiv.org/abs/1704.02431)], [[Caffe](https://github.com/danxuhk/CMT-CNN)], `CMT-CNN`
+23. **Repulsion loss: Detecting pedestrians in a crowd**, *X. Wang, T. Xiao, Y. Jiang, S. Shao, J. Sun, C. Shen*, in: CVPR, 2018. [[OpenAccess](http://zpascal.net/cvpr2018/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)], [[Pytorch](https://github.com/bailvwangzi/repulsion_loss_ssd)]
+24. **Bi-box regression for pedestrian detection and occlusion estimation**, *C. Zhou, J. Yuan*, in: ECCV, 2018. [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.html)]
+25. **Occlusion-aware r-cnn: Detecting pedestrians in a crowd**, *S. Zhang, L. Wen, X. Bian, Z. Lei, S. Z. Li*, in: ECCV, 2018. [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)], `OR R-CNN`
+26. **Scale-aware fast r-cnn for pedestrian detection**, *J. Li, X. Liang, S. Shen, T. Xu, J. Feng, S. Yan*,  [[Arxiv](https://arxiv.org/pdf/1510.08160)], in: TMM, 2018. `SAF R-CNN`
+27. **Pcn: Part and context information for pedestrian detection with cnns**, *S. Wang, J. Cheng, H. Liu, M. Tang*, in: arXiv preprint arXiv:1804.04483, 2018. [[OpenAccess](https://arxiv.org/abs/1804.04483)]
 
 
 ## 4 Benchmarks
@@ -386,5 +372,6 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 
 ## 7 Other Resources
+
 
 
