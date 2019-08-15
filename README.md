@@ -92,7 +92,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 2. **Inside-outside net: Detecting objects in context with skip pooling and recurrent neural networks**, *S. Bell, C. Lawrence Zitnick, K. Bala, R. Girshick*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2016/papers/Bell_Inside-Outside_Net_Detecting_CVPR_2016_paper.pdf)], `ION`
 3. **Object detection from video tubelets with convolutional neural networks**, *K. Kang, W. Ouyang, H. Li, X. Wang*, [[OpenAccess](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Kang_Object_Detection_From_CVPR_2016_paper.pdf)], [[Caffe](https://github.com/myfavouritekk/T-CNN)], `T-CNN`
 4. **Instance-aware semantic segmentation via multitask network cascades**, *J. Dai, K. He, J. Sun*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2016/papers/Dai_Instance-Aware_Semantic_Segmentation_CVPR_2016_paper.pdf)], [[Caffe](https://github.com/daijifeng001/MNC)], `MNC`
-5. **Adaptive object detection using adjacency and zoom prediction**, *Y. Lu, T. Javidi, S. Lazebnik*, [[Arxiv](https://arxiv.org/abs/1512.07711)], [[Caffe](https://github.com/luyongxi/az-net)], `AZ-Net` 
+5. **Adaptive object detection using adjacency and zoom prediction**, *Y. Lu, T. Javidi, S. Lazebnik*, [[Arxiv](https://arxiv.org/abs/1512.07711)], [[Caffe](https://github.com/luyongxi/az-net)], `AZ-Net`
 
 
 
@@ -100,7 +100,9 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 1. **R-fcn: Object detection via region-based fully convolutional networks**, *J. Dai, Y. Li, K. He, J. Sun*, [[OpenAccess](https://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf)], [[Caffe-Matlab](https://github.com/daijifeng001/R-FCN)], [[Caffe-Python](https://github.com/YuwenXiong/py-R-FCN)], `R-FCN`
 
+**2016 Arxiv**
 
+1. **Beyond skip connections: Top-down modulation for object detection**, *A. Shrivastava, R. Sukthankar, J. Malik, A. Gupta*, [[Arxiv](https://arxiv.org/abs/1612.06851)], `TDM`
 
 **2017 ICCV**
 
@@ -127,6 +129,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 1. **Cascade r-cnn: Delving into high quality object detection**, *Z. Cai, N. Vasconcelos*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)], [[Caffe](https://github.com/zhaoweicai/cascade-rcnn)], [[Caffe2](https://github.com/zhaoweicai/Detectron-Cascade-RCNN)] `Cascade R-CNN`
 2. **Detnet: A backbone network for object detection**, *Z. Li, C. Peng, G. Yu, X. Zhang, Y. Deng, J. Sun*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zeming_Li_DetNet_Design_Backbone_ECCV_2018_paper.pdf)], [[Pytorch*](https://github.com/guoruoqian/DetNet_pytorch)], `DetNet`
 3. **An analysis of scale invariance in object detection–snip**, *B. Singh, L. S. Davis*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/papers/Singh_An_Analysis_of_CVPR_2018_paper.pdf)], [[MXNet](https://github.com/mahyarnajibi/SNIPER)], `SNIP`
+4. **Multi-scale location-aware kernel representation for object detection**, *H. Wang, Q. Wang, M. Gao, P. Li, W. Zuo*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Scale_Location-Aware_Kernel_CVPR_2018_paper.pdf)], [[Caffe](https://github.com/Hwang64/MLKP)], `MLKR`
 
 
 **2018 NeurIPS**
@@ -199,6 +202,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 **2017 ICCV**
 1. **Focal loss for dense object detection**, *T.Y. Lin, P. Goyal, R. Girshick, K. He, P. Dollar*, [[OpenAccess](http://openaccess.thecvf.com/content_iccv_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html)], [[Caffe2](https://github.com/facebookresearch/Detectron)], `RetinaNet` 
+2. **Dsod: Learning deeply supervised object detectors from scratch**, *Z. Shen, Z. Liu, J. Li, Y.-G. Jiang, Y. Chen, X. Xue*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Shen_DSOD_Learning_Deeply_ICCV_2017_paper.pdf)], [[Caffe](https://github.com/szq0214/DSOD)], `DSOD`
 
 **2017 CVPR**
 
@@ -210,12 +214,16 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 **2018 ECCV**
 
 1. **Cornernet: Detecting objects as paired keypoints**, *H. Law, J. Deng*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)], [[Pytorch](https://github.com/princeton-vl/CornerNet)], `CornerNet`
+2. **Receptive field block net for accurate and fast object detection**, *S. Liu, D. Huang, Y. Wang*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Songtao_Liu_Receptive_Field_Block_ECCV_2018_paper.html)], [[Pytorch](https://github.com/ruinmessi/RFBNet)], `RFBNet`
+3. **Deep feature pyramid reconfiguration for object detection**, *T. Kong, F. Sun, W. Huang, H. Liu*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tao_Kong_Deep_Feature_Pyramid_ECCV_2018_paper.pdf)], [[Pytorch](https://github.com/ruinmessi/RFBNet)], `RFBNet`
+
 
  
 
 **2018 CVPR**
 
 1. **Single-shot refinement neural network for object detection**, *S. Zhang, L. Wen, X. Bian, Z. Lei, S. Z. Li*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)], [[Caffe](https://github.com/sfzhang15/RefineDet)], `RefineDet`
+2. **Scale-transferrable object detection**, *P. Zhou, B. Ni, C. Geng, J. Hu, Y. Xu*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf)], [[Pytorch](https://github.com/arvention/STDN)], `STDN`
 
 **2018 NeurIPS**
 
@@ -247,6 +255,8 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 **2017 ICCV**
 
 1. **S3fd: Single shot scale-invariant face detector**, *S. Zhang, X. Zhu, Z. Lei, H. Shi, X. Wang, S. Z. Li*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_S3FD_Single_Shot_ICCV_2017_paper.pdf)], [[Caffe](https://github.com/sfzhang15/SFD)], `S3FD`
+2. **Recurrent scale approximation for object detection in cnn**, *Y. Liu, H. Li, J. Yan, F. Wei, X. Wang, X. Tang*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Recurrent_Scale_Approximation_ICCV_2017_paper.pdf)], [[Caffe](https://github.com/sciencefans/RSA-for-object-detection)], `RSA`
+
 
 **2018 CVPR**
 
@@ -255,11 +265,25 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 ## 3. Pedestrian Detection
  
- **2015 CVPR**
+**2015 CVPR**
 1. **Taking a deeper look at pedestrians**, *J. Hosang, M. Omran, R. Benenson, B. Schiele*,  [[OpenAccess](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hosang_Taking_a_Deeper_2015_CVPR_paper.pdf)]
 
 
+**2016 ECCV**
+
+1. **A unified multi-scale deep convolutional neural network for fast object detection**, *Z. Cai, Q. Fan, R. S. Feris, N. Vasconcelos*, [[OpenAccess](http://www.eccv2016.org/files/posters/P-2B-38.pdf)], [[Caffe](https://github.com/zhaoweicai/mscnn)], `MSCNN`
+
+**2016 CVPR**
+
+1. **Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers**, *F. Yang, W. Choi, Y. Lin*, [ [OpenAccess](http://openaccess.thecvf.com/content_cvpr_2016/html/Yang_Exploit_All_the_CVPR_2016_paper.html)], `SDP-CRC`
+
+
+**2017 CVPR**
+
+1. **Accurate single stage detector using recurrent rolling convolution**, *J. Ren, X. Chen, J. Liu, W. Sun, J. Pang, Q. Yan, Y.-W. Tai, L. Xu*, [[OpenAccess](http://zpascal.net/cvpr2017/Ren_Accurate_Single_Stage_CVPR_2017_paper.pdf)], [[Caffe](https://github.com/xiaohaoChen/rrc_detection)], `RRC`
+
  **2018 TMM**
+
 1. **Scale-aware fast r-cnn for pedestrian detection**, *J. Li, X. Liang, S. Shen, T. Xu, J. Feng, S. Yan*,  [[Arxiv](https://arxiv.org/pdf/1510.08160)], `SAF R-CNN`
 
 
