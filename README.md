@@ -11,10 +11,10 @@ After completing this survey, we decided to release the collected resource of ob
 * [1. Generic Object Detection](#1-Generic-Object-Detection)
     - [1.1 Two-stage Detection Algorithms](#11-Two-stage-Detection)
     - [1.2 One-stage Detection Algorithms](#12-One-stage-Detection)
-* [2. Face Detection](#2-Supervised-SR)
-* [3. Pedestrian Detection](#3-Unsupervised-SR)
-* [4. MSCOCO Datasets](#4-SR-Datasets)
-* [5. Pascal VOC Datasets](#5-SR-Metrics)
+* [2. Face Detection](#2-Face-Detection)
+* [3. Pedestrian Detection](#3-Pedestrian-Detection)
+* [4. MSCOCO Datasets](#4-MSCOCO-Datasets)
+* [5. Pascal VOC Datasets](#5-Pascal-VOC-Datasets)
 * [6. Other Resources](#6-Other-Resources)
 
 **Citing this work**
