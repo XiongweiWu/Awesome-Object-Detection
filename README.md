@@ -186,23 +186,6 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 1. **Overfeat: Integrated recognition, localization and detection using convolutional networks**, *P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, Y. LeCun*, in: arXiv preprint arXiv:1312.6229, 2013.  [[Arxiv](https://arxiv.org/pdf/1312.6229)], [[Torch](https://github.com/sermanet/OverFeat)], `Overfeat`
 
 
-**2014 ECCV**
-
-
-**2014 CVPR**
-
-
-**2014 NeurIPS**
-
-
-**2015 ICCV**
-
-
-**2015 CVPR**
-
-
-**2015 NeurIPS**
-
 **2016 ECCV**
 1. **SSD: Single shot multibox detector**, *W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. Reed, C.-Y. Fu, A. C. Berg*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Single-Shot_Object_Detection_CVPR_2018_paper.pdf)], [[Caffe](https://github.com/weiliu89/caffe/tree/ssd)], `SSD` 
 
@@ -308,6 +291,9 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
  **2018 TMM**
 
 1. **Scale-aware fast r-cnn for pedestrian detection**, *J. Li, X. Liang, S. Shen, T. Xu, J. Feng, S. Yan*,  [[Arxiv](https://arxiv.org/pdf/1510.08160)], `SAF R-CNN`
+
+
+
 
 
 
