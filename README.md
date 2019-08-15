@@ -11,10 +11,6 @@ After completing this survey, we decided to release the collected resource of ob
 * [1. Generic Object Detection](#1-Generic-Object-Detection)
     - [1.1 Two-stage Detection Algorithms](#11-Two-stage-Detection)
     - [1.2 One-stage Detection Algorithms](#12-One-stage-Detection)
-    - [1.3 Localization Refinement](#13-Localization-Refinement)
-        - [1.3.1 Anchor-Free Methods](#131-Anchor-Free-Methods)
-        - [1.3.2 Anchor-Refinement Methods](#132-Anchor-Refinement-Methods)
-    - [1.4 AutoML](#14-AutoML)
 * [2. Face Detection](#2-Face-Detection)
 * [3. Pedestrian Detection](#3-Pedestrian-Detection)
 * [4. Benchmarks](#4-Benchmarks)
@@ -24,7 +20,14 @@ After completing this survey, we decided to release the collected resource of ob
 * [5. SOTA](#5-SOTA)
     - [5.1 Pascal VOC](#51-Pascal-VOC)
     - [5.2 MSCOCO](#52-MSCOCO)
-* [6. Other Resources](#6-Other-Resources)
+* [6. Future Work](#6-Future-Work)
+    - [6.1 Anchor Design](#61-Anchor-Design)
+        - [6.1.1 Anchor-Free Methods](#611-Anchor-Free-Methods)
+        - [6.1.2 Anchor-Refinement Methods](#611-Anchor-Refinement-Methods)
+    - [6.2 AutoML](#62-AutoML)
+    - [6.3 Low-shot Detection](#63-Low-shot-Detection)
+    - [6.4 Others](#64-Others)
+* [7. Other Resources](#6-Other-Resources)
 
 **Citing this work**
 
@@ -243,32 +246,6 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 1. **Objects as points**, *X. Zhou, D. Wang, P. Krahenb ¨ uhl*, [[Arxiv](https://arxiv.org/pdf/1904.07850)], [[Pytorch](https://github.com/xingyizhou/CenterNet)], `CenterNet`
 2. **Centernet: Keypoint triplets for object detection**, *K. Duan, S. Bai, L. Xie, H. Qi, Q. Huang, Q. Tian*, [[Arxiv](https://arxiv.org/pdf/1904.08189)], [[Pytorch](https://github.com/Duankaiwen/CenterNet)], `CenterNet`
 
-### 1.3 Localization Refinement
-
-#### 1.3.1 Anchor-Free Methods
-
-1. **Objects as points**, *X. Zhou, D. Wang, P. Krahenb ¨ uhl*, [[Arxiv](https://arxiv.org/pdf/1904.07850)], [[Pytorch](https://github.com/xingyizhou/CenterNet)], `CenterNet`
-2. **Centernet: Keypoint triplets for object detection**, *K. Duan, S. Bai, L. Xie, H. Qi, Q. Huang, Q. Tian*, [[Arxiv](https://arxiv.org/pdf/1904.08189)], [[Pytorch](https://github.com/Duankaiwen/CenterNet)], `CenterNet`
-3. **Bottom-up object detection by grouping extreme and center points**, *X. Zhou, J. Zhuo, P. Krahenbuhl*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Bottom-Up_Object_Detection_by_Grouping_Extreme_and_Center_Points_CVPR_2019_paper.pdf)], [[Pytorch](https://github.com/xingyizhou/ExtremeNet)], `ExtremeNet`
-4. **Feature selective anchor-free module for single-shot object detection**, *C. Zhu, Y. He, M. Savvides*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Feature_Selective_Anchor-Free_Module_for_Single-Shot_Object_Detection_CVPR_2019_paper.pdf)], `FSFA`
-5.  **Fcos: Fully convolutional one-stage object detection**, *Z. Tian, C. Shen, H. Chen, T. He*, [[OpenAccess](https://arxiv.org/abs/1904.01355)], [[Pytorch](https://github.com/tianzhi0549/FCOS)], `FCOS`
-6. **Cornernet: Detecting objects as paired keypoints**, *H. Law, J. Deng*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)], [[Pytorch](https://github.com/princeton-vl/CornerNet)], `CornerNet`
-7. **Denet: Scalable real-time object detection with directed sparse sampling**, *L. Tychsen-Smith, L. Petersson*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Tychsen-Smith_DeNet_Scalable_Real-Time_ICCV_2017_paper.pdf)],[[Theano](https://github.com/lachlants/denet)], `DeNet`
-
-
-#### 1.3.2 Anchor-Refinement Methods
-
-1. **Cascade r-cnn: Delving into high quality object detection**, *Z. Cai, N. Vasconcelos*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)], [[Caffe](https://github.com/zhaoweicai/cascade-rcnn)], [[Caffe2](https://github.com/zhaoweicai/Detectron-Cascade-RCNN)] `Cascade R-CNN`
-2. **Single-shot refinement neural network for object detection**, *S. Zhang, L. Wen, X. Bian, Z. Lei, S. Z. Li*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)], [[Caffe](https://github.com/sfzhang15/RefineDet)], `RefineDet`
-3. **Metaanchor: Learning to detect objects with customized anchors**, *T. Yang, X. Zhang, Z. Li, W. Zhang, J. Sun*,  [[OpenAccess](https://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors)], `MetaAnchor`
-4. **Derpn: Taking a further step toward more general object detection**, *L. J. Z. X. Lele Xie, Yuliang Liu*, [[OpenAccess](https://www.aaai.org/ojs/index.php/AAAI/article/view/4936/4809)], [[Caffe](https://github.com/HCIILAB/DeRPN)], `DeRPN`
-5. **Yolo9000: better, faster, stronger**, *J. Redmon, A. Farhadi*, [[OpenAccess](http://zpascal.net/cvpr2017/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf)], [[DarkNet](https://pjreddie.com/darknet/yolo)], `YOLOv2`
-
-### AutoML
-
-1. **Nas-fpn: Learning scalable feature pyramid architecture for object detection**, *G. Ghiasi, T.-Y. Lin, Q. V. Le*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.pdf)], [[TensorFlow](https://github.com/DetectionTeamUCAS/NAS_FPN_Tensorflow)], `NAS-FPN`
-
-
 
 
 ## 2. Face Detection
@@ -347,5 +324,52 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 ### 5.2 Pascal VOC
 
 
+## 6. Future Work
+
+### 6.1 Anchor Design
+
+#### 6.1.1 Anchor-Free Methods
+
+1. **Objects as points**, *X. Zhou, D. Wang, P. Krahenb ¨ uhl*, [[Arxiv](https://arxiv.org/pdf/1904.07850)], [[Pytorch](https://github.com/xingyizhou/CenterNet)], `CenterNet`
+2. **Centernet: Keypoint triplets for object detection**, *K. Duan, S. Bai, L. Xie, H. Qi, Q. Huang, Q. Tian*, [[Arxiv](https://arxiv.org/pdf/1904.08189)], [[Pytorch](https://github.com/Duankaiwen/CenterNet)], `CenterNet`
+3. **Bottom-up object detection by grouping extreme and center points**, *X. Zhou, J. Zhuo, P. Krahenbuhl*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Bottom-Up_Object_Detection_by_Grouping_Extreme_and_Center_Points_CVPR_2019_paper.pdf)], [[Pytorch](https://github.com/xingyizhou/ExtremeNet)], `ExtremeNet`
+4. **Feature selective anchor-free module for single-shot object detection**, *C. Zhu, Y. He, M. Savvides*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Feature_Selective_Anchor-Free_Module_for_Single-Shot_Object_Detection_CVPR_2019_paper.pdf)], `FSFA`
+5.  **Fcos: Fully convolutional one-stage object detection**, *Z. Tian, C. Shen, H. Chen, T. He*, [[OpenAccess](https://arxiv.org/abs/1904.01355)], [[Pytorch](https://github.com/tianzhi0549/FCOS)], `FCOS`
+6. **Cornernet: Detecting objects as paired keypoints**, *H. Law, J. Deng*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)], [[Pytorch](https://github.com/princeton-vl/CornerNet)], `CornerNet`
+7. **Denet: Scalable real-time object detection with directed sparse sampling**, *L. Tychsen-Smith, L. Petersson*, [[OpenAccess](http://openaccess.thecvf.com/content_ICCV_2017/papers/Tychsen-Smith_DeNet_Scalable_Real-Time_ICCV_2017_paper.pdf)],[[Theano](https://github.com/lachlants/denet)], `DeNet`
+
+#### 6.1.2 Anchor-Refinement Methods
+
+1. **Cascade r-cnn: Delving into high quality object detection**, *Z. Cai, N. Vasconcelos*, [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/papers/Cai_Cascade_R-CNN_Delving_CVPR_2018_paper.pdf)], [[Caffe](https://github.com/zhaoweicai/cascade-rcnn)], [[Caffe2](https://github.com/zhaoweicai/Detectron-Cascade-RCNN)] `Cascade R-CNN`
+2. **Single-shot refinement neural network for object detection**, *S. Zhang, L. Wen, X. Bian, Z. Lei, S. Z. Li*, [[OpenAccess](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)], [[Caffe](https://github.com/sfzhang15/RefineDet)], `RefineDet`
+3. **Metaanchor: Learning to detect objects with customized anchors**, *T. Yang, X. Zhang, Z. Li, W. Zhang, J. Sun*,  [[OpenAccess](https://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors)], `MetaAnchor`
+4. **Derpn: Taking a further step toward more general object detection**, *L. J. Z. X. Lele Xie, Yuliang Liu*, [[OpenAccess](https://www.aaai.org/ojs/index.php/AAAI/article/view/4936/4809)], [[Caffe](https://github.com/HCIILAB/DeRPN)], `DeRPN`
+5. **Yolo9000: better, faster, stronger**, *J. Redmon, A. Farhadi*, [[OpenAccess](http://zpascal.net/cvpr2017/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf)], [[DarkNet](https://pjreddie.com/darknet/yolo)], `YOLOv2`
+
+### 6.2 AutoML
+
+1. **Nas-fpn: Learning scalable feature pyramid architecture for object detection**, *G. Ghiasi, T.-Y. Lin, Q. V. Le*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.pdf)], [[TensorFlow](https://github.com/DetectionTeamUCAS/NAS_FPN_Tensorflow)], `NAS-FPN`
+2. **Detnas: Neural architecture search on object detection**, *Y. Chen, T. Yang, X. Zhang, G. Meng, C. Pan, J. Sun*, in: arXiv preprint arXiv:1903.10979, 2019. [[OpenAccess](https://arxiv.org/abs/1903.10979)], `DetNas`
+3. **Learning data augmentation strategy**, *B. Zoph, E. D. Cubuk, G. Ghiasi, T.-Y. Lin, J. Shlens, Q. V. Le*,  in: arXiv preprint arXiv:1906.11172, 2019. [[OpenAccess](https://arxiv.org/abs/1906.11172)], [[TensorFlow](https://github.com/tensorflow/tpu/tree/master/models/official/detection)]
+4. **AutoAugment: Learning Augmentation Strategies from Data**, *E. D. Cubuk, B. Zoph, D. Mane, V. Vasudevan, Q. V. Le*,  in: CVPR, 2019. [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cubuk_AutoAugment_Learning_Augmentation_Strategies_From_Data_CVPR_2019_paper.pdf)], `AutoAugment`
+
+### 6.3 Low-shot Detection
+
+1. **Few-example object detection with model communication**, *X. Dong, L. Zheng, F. Ma, Y. Yang, D. Meng*, in: TPAMI, 2018. [[OpenAccess](https://arxiv.org/abs/1706.08249)], [[Project](https://github.com/D-X-Y/DXY-Projects)], `MSPLD`
+2. **Lstd: A low-shot transfer detector for object detection**, *H. Chen, Y. Wang, G. Wang, Y. Qiao*, in: AAAI, 2018.
+ [[OpenAccess](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16778/16580)], [[Caffe](https://github.com/Cassie94/LSTD)], `LSTD`
+3. **Repmet: Representative-based metric learning for classification and one-shot object detection**, *E. Schwartz, L. Karlinsky, J. Shtok, S. Harary, M. Marder, S. Pankanti, R. Feris, A. Kumar, R. Giries, A. M. Bronstein*,  in: CVPR, 2019. [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Karlinsky_RepMet_Representative-Based_Metric_Learning_for_Classification_and_Few-Shot_Object_Detection_CVPR_2019_paper.pdf)], [[Pytorch](https://github.com/HaydenFaulkner/pytorch.repmet)], `RepMet`
+
+
+### 6.4 Others
+
+1. **Megdet: A large mini-batch object detector**, *C. Peng, T. Xiao, Z. Li, Y. Jiang, X. Zhang, K. Jia, G. Yu, J. Sun*, in: CVPR, 2018 [[OpenAccess](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0836.pdf)], `Megdet`
+2. **Incremental learning of object detectors without catastrophic forgetting**, *K. Shmelkov, C. Schmid, K. Alahari, *, in: ICCV, 2017. [[OpenAccess](https://arxiv.org/abs/1708.06977)], [[TensorFlow](https://github.com/kshmelkov/incremental_detectors)]
+
+
+
+
+
+## 7 Other Resources
 
 
