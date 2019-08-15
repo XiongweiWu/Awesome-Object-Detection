@@ -376,5 +376,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 ## 7 Other Resources
 
-
+- [Object Detection](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
+- [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
+- [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
 
