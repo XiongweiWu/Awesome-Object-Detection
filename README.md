@@ -9,7 +9,7 @@
 
 A list of awesome object detection resources.
 
-Recently we released *[survey](https://arxiv.org/abs/1908.03673)* to the community. In this survey, we systematically analyze the existing object detection frameworks and organize the survey into three major parts: (i) detection components, (ii) learning strategies, and (iii) applications & benchmarks. In the survey, we cover a variety of factors affecting the detection performance in detail, such as detector architectures, feature learning, proposal generation, sampling strategies, etc. Finally, we discuss several future directions to facilitate and spur future research for visual object detection with deep learning.  
+Recently we released survey (**[Recent Advances in Deep Learning for Object Detection](https://arxiv.org/abs/1908.03673)**) to the community. In this survey, we systematically analyze the existing object detection frameworks and organize the survey into three major parts: (i) detection components, (ii) learning strategies, and (iii) applications & benchmarks. In the survey, we cover a variety of factors affecting the detection performance in detail, such as detector architectures, feature learning, proposal generation, sampling strategies, etc. Finally, we discuss several future directions to facilitate and spur future research for visual object detection with deep learning.  
 
 After completing this survey, we decided to release the collected resource of object detection. We will keep updating our survey as well as this resource collection, since this area moves too fast. If you have any questions or suggestions, please feel free to contact us.
 
