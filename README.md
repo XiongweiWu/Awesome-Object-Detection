@@ -7,7 +7,6 @@
 - [ ] Fix the link and format issues
 - [ ] Add paper link to SOTA tables
 
-
 A list of awesome object detection resources.
 
 Recently we released *[survey](https://arxiv.org/abs/1908.03673)* to the community. In this survey, we systematically analyze the existing object detection frameworks and organize the survey into three major parts: (i) detection components, (ii) learning strategies, and (iii) applications & benchmarks. In the survey, we cover a variety of factors affecting the detection performance in detail, such as detector architectures, feature learning, proposal generation, sampling strategies, etc. Finally, we discuss several future directions to facilitate and spur future research for visual object detection with deep learning.  
@@ -28,7 +27,7 @@ After completing this survey, we decided to release the collected resource of ob
 * [5. SOTA](#5-SOTA)
     - [5.1 Pascal VOC](#51-Pascal-VOC)
     - [5.2 MSCOCO](#52-MSCOCO)
-* [6. Future Work](#6-Future-Work)
+* [6. Emerging Ideas](#6-Emerging-Ideas)
     - [6.1 Anchor Design](#61-Anchor-Design)
         - [6.1.1 Anchor-Free Methods](#611-Anchor-Free-Methods)
         - [6.1.2 Anchor-Refinement Methods](#611-Anchor-Refinement-Methods)
@@ -351,7 +350,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 |---| ---| ---| --- |---| --- |
 |R-CNN | VGG-16| 2014| Arbitrary| 66.0∗ |62.4†|
 |SPP-net | VGG-16 |2014 |~600 × 1000| 63.1∗| -|
-|Fast R-CNN|VGG-16 |2015 ∼ |600 × 1000| 70.0 |68.4|
+|Fast R-CNN|VGG-16 |2015 |~600 × 1000| 70.0 |68.4|
 |Faster R-CNN | VGG-16| 2015 |~600 × 1000 |73.2 |70.4|
 |MR-CNN | VGG-16 |2015| Multi-Scale| 78.2 |73.9|
 |Faster R-CNN | ResNet-101 |2016 |~600 × 1000 |76.4| 73.8|
@@ -369,7 +368,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 |DCN+R-CNN | ResNet-101+ResNet-152| 2018| Arbitrary| 84.0 |81.2|
 |YOLOv1| VGG16 |2016 |448 × 448| 66.4| 57.9|
 |SSD512| VGG-16 |2016 |512 × 512| 79.8| 78.5|
-|YOLOv2 | Darknet 2017| 544 × 544| 78.6| 73.5|
+|YOLOv2 | Darknet |2017| 544 × 544| 78.6| 73.5|
 |DSSD513| ResNet-101| 2017 |513 × 513| 81.5| 80.0|
 |DSOD300 | DS/64-192-48-1| 2017 |300 × 300| 77.7 |76.3|
 |RON384 | VGG-16| 2017 |384 × 384| 75.4| 73.0|
@@ -381,6 +380,8 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 *∗: This entry reports the the model is trained with VOC2007 trainval sets only.*
 *†: This entry reports the the model are trained with VOC2012 trainval sets only .*
+
+
 
 ### 5.2 MSCOCO
 
@@ -440,7 +441,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 
 
-## 6. Future Work
+## 6. Emerging Ideas
 
 ### 6.1 Anchor Design
 
@@ -496,5 +497,9 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 - [Object Detection](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
 - [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
 - [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
+
+
+
+
 
 
