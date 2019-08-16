@@ -404,7 +404,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 2. **Incremental learning of object detectors without catastrophic forgetting**, *K. Shmelkov, C. Schmid, K. Alahari, *, in: ICCV, 2017. [[OpenAccess](https://arxiv.org/abs/1708.06977)], [[TensorFlow](https://github.com/kshmelkov/incremental_detectors)]
 
 
-## 7 Other Resources
+## 7. Other Resources
 
 - [Object Detection](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
 - [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
