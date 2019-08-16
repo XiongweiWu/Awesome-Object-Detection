@@ -4,8 +4,9 @@
 
 **TODO:**
 
-- [ ] Add SOTA Table
 - [ ] Fix the link and format issues
+- [ ] Add paper link to SOTA tables
+
 
 A list of awesome object detection resources.
 
