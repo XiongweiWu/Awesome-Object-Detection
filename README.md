@@ -30,7 +30,7 @@ After completing this survey, we decided to release the collected resource of ob
 * [6. Future Work](#6-Future-Work)
     - [6.1 Anchor Design](#61-Anchor-Design)
         - [6.1.1 Anchor-Free Methods](#611-Anchor-Free-Methods)
-        - [6.1.2 Anchor-Refinement Methods](#611-Anchor-Refinement-Methods)
+        - [6.1.2 Anchor-Refinement Methods](#612-Anchor-Refinement-Methods)
     - [6.2 AutoML Detection](#62-AutoML-Detection)
     - [6.3 Low-shot Detection](#63-Low-shot-Detection)
     - [6.4 Others](#64-Others)
