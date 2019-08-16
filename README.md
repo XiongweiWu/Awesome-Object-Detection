@@ -34,7 +34,7 @@ After completing this survey, we decided to release the collected resource of ob
     - [6.2 AutoML Detection](#62-AutoML-Detection)
     - [6.3 Low-shot Detection](#63-Low-shot-Detection)
     - [6.4 Others](#64-Others)
-* [7. Other Resources](#6-Other-Resources)
+* [7. Other Resources](#7-Other-Resources)
 
 **Citing this work**
 
