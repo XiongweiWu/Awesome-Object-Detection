@@ -30,11 +30,11 @@ After completing this survey, we decided to release the collected resource of ob
 * [6. Future Work](#6-Future-Work)
     - [6.1 Anchor Design](#61-Anchor-Design)
         - [6.1.1 Anchor-Free Methods](#611-Anchor-Free-Methods)
-        - [6.1.2 Anchor-Refinement Methods](#612-Anchor-Refinement-Methods)
+        - [6.1.2 Anchor-Refinement Methods](#611-Anchor-Refinement-Methods)
     - [6.2 AutoML Detection](#62-AutoML-Detection)
     - [6.3 Low-shot Detection](#63-Low-shot-Detection)
     - [6.4 Others](#64-Others)
-* [7. Other Resources](#7-Other-Resources)
+* [7. Other Resources](#6-Other-Resources)
 
 **Citing this work**
 
@@ -344,11 +344,62 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 ## 5. SOTA
 
-### 5.1 MSCOCO
+### 5.1 Pascal VOC
 
-### 5.2 Pascal VOC
+### 5.2 MSCOCO
 
-
+|Method |Backbone |Year |AP |AP$_{50}$ |AP$_{75}$ |AP$_{S}$ |AP$_{M}$ |AP$_{L}$|
+|--- |--- |--- |--- |--- |--- |--- |--- |---|
+|Fast R-CNN | VGG-16 |2015 |19.7 |35.9| - |- |- |-|
+|Faster R-CNN | VGG-16| 2015 |21.9| 42.7| - |-| -| -|
+|OHEM | VGG-16 |2016 |22.6| 42.5| 22.2 |5.0| 23.7| 37.9|
+|ION | VGG-16 |2016 |23.6 |43.2| 23.6| 6.4| 24.1 |38.3|
+|OHEM++| VGG-16| 2016| 25.5 |45.9 |26.1 |7.4| 27.7| 40.3|
+|R-FCN| ResNet-101| 2016 |29.9| 51.9| - |10.8| 32.8| 45.0|
+|Faster R-CNN+++ | ResNet-101| 2016| 34.9 |55.7 |37.4|15.6| 38.7| 50.9|
+|Faster R-CNN w FPN | ResNet-101 |2016 |36.2| 59.1| 39.0| 18.2| 39.0 |48.2|
+|DeNet-101(wide) | ResNet-101| 2017| 33.8| 53.4| 36.1 |12.3| 36.1|50.8|
+|CoupleNet | ResNet-101 |2017| 34.4 |54.8| 37.2 |13.4| 38.1| 50.8|
+|Faster R-CNN by G-RMI | Inception-ResNet-v2| 2017| 34.7| 55.5| 36.7 |13.5 |38.1 |52.0|
+|Deformable R-FCN| Aligned-Inception-ResNet| 2017| 37.5 |58.0| 40.8 |19.4 |40.1 |52.5|
+|Mask-RCNN | ResNeXt-101| 2017| 39.8| 62.3 |43.4| 22.1| 43.2| 51.2|
+|umd det | ResNet-101| 2017| 40.8 |62.4 |44.9| 23.0 |43.4| 53.2|
+|Fitness-NMS | ResNet-101 |2017| 41.8| 60.9 |44.9| 21.5 |45.0| 57.5|
+|DCN w Relation Net | ResNet-101 |2018 |39.0| 58.6| 42.9| -| - |-|
+|DeepRegionlets | ResNet-101 |2018 |39.3| 59.8 |- |21.7| 43.7| 50.9|
+|C-Mask RCNN | ResNet-101 |2018| 42.0| 62.9 |46.4| 23.4 |44.7| 53.8|
+|Group Norm| ResNet-101 |2018|42.3| 62.8| 46.2| -| -| -|
+|DCN+R-CNN | ResNet-101+ResNet-152| 2018 |42.6| 65.3 |46.5| 26.4| 46.1 |56.4|
+|Cascade R-CNN | ResNet-101| 2018 |42.8| 62.1| 46.3| 23.7| 45.5| 55.2|
+|SNIP++ | DPN-98| 2018 |45.7| 67.3| 51.1 |29.3 |48.8 |57.1|
+|SNIPER++ | ResNet-101| 2018 |46.1 |67.0| 51.6 |29.6 |48.9| 58.1|
+|PANet++ | ResNeXt-101 |2018| 47.4| 67.2| 51.8 |30.1 |51.7 |60.0|
+|Grid R-CNN | ResNeXt-101| 2019 |43.2| 63.0| 46.6 |25.1 |46.5| 55.2|
+|DCN-v2 | ResNet-101 |2019| 44.8 |66.3 |48.8 |24.4 |48.1 |59.6|
+|DCN-v2++| ResNet-101| 2019 |46.0| 67.9| 50.8 |27.8| 49.1 |59.5|
+|TridentNet| ResNet-101| 2019| 42.7 |63.6 |46.5| 23.9| 46.6| 56.6|
+|TridentNet | ResNet-101-Deformable |2019 |48.4 |69.7| 53.5| 31.8| 51.3| 60.3|
+|SSD512 | VGG-16 |2016| 28.8 |48.5| 30.3| 10.9| 31.8 |43.5|
+|RON384++| VGG-16 |2017| 27.4| 49.5| 27.1| -| -| -|
+|YOLOv2 | DarkNet-19 |2017| 21.6| 44.0| 19.2| 5.0| 22.4 |35.5|
+|SSD513| ResNet-101| 2017 |31.2| 50.4 |33.3| 10.2 |34.5 |49.8|
+|DSSD513 | ResNet-101| 2017 |33.2| 53.3 |35.2| 13.0| 35.4 |51.1|
+|RetinaNet800++ | ResNet-101 |2017 |39.1 |59.1 |42.3| 21.8| 42.7| 50.2|
+|STDN513 | DenseNet-169| 2018| 31.8| 51.0| 33.6| 14.4| 36.1| 43.4|
+|FPN-Reconfig | ResNet-101| 2018 |34.6 |54.3 |37.3| -| - |-|
+|RefineDet512 | ResNet-101| 2018 |36.4 |57.5 |39.5 |16.6| 39.9| 51.4|
+|RefineDet512++ | ResNet-101 |2018 |41.8| 62.9| 45.7| 25.6| 45.1| 54.1|
+|GHM SSD | ResNeXt-101| 2018 |41.6| 62.8| 44.2| 22.3 |45.1| 55.3|
+|CornerNet511 | Hourglass-104| 2018| 40.5 |56.5| 43.1| 19.4| 42.7| 53.9|
+|CornerNet511++ | Hourglass-104 |2018 |42.1 |57.8 |45.3| 20.8| 44.8| 56.7|
+|M2Det800 | VGG-16 |2019| 41.0| 59.7 |45.0 |22.1 |46.5| 53.8|
+|M2Det800++ | VGG-16 |2019| 44.2 |64.6 |49.3 |29.2 |47.9| 55.1|
+|ExtremeNet| Hourglass-104| 2019| 40.2 |55.5 |43.2| 20.4| 43.2| 53.1|
+|CenterNet-HG| Hourglass-104| 2019| 42.1 |61.1| 45.9| 24.1| 45.5| 52.8|
+|FCOS | ResNeXt-101| 2019 |42.1| 62.1 |45.2| 25.6| 44.9| 52.0|
+|FSAF | ResNeXt-101 |2019 |42.9| 63.8 |46.3 |26.6| 46.2| 52.7|
+|CenterNet511 | Hourglass-104 |2019 |44.9| 62.4 |48.1| 25.6| 47.4 |57.4|
+|CenterNet511++ |Hourglass-104 |2019| 47.0| 64.5| 50.7| 28.9| 49.9| 58.9|
 
 
 
@@ -409,6 +460,5 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 - [Object Detection](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
 - [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
 - [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
-
 
 
