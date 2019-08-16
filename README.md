@@ -346,6 +346,41 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 
 ### 5.1 Pascal VOC
 
+|Method| Backbone| Proposed Year| Input size(Test) | VOC2007 |VOC2012|
+|---| ---| ---| --- |---| --- |
+|R-CNN | VGG-16| 2014| Arbitrary| 66.0∗ |62.4†|
+|SPP-net | VGG-16 |2014 |~600 × 1000| 63.1∗| -|
+|Fast R-CNN|VGG-16 |2015 ∼ |600 × 1000| 70.0 |68.4|
+|Faster R-CNN | VGG-16| 2015 |~600 × 1000 |73.2 |70.4|
+|MR-CNN | VGG-16 |2015| Multi-Scale| 78.2 |73.9|
+|Faster R-CNN | ResNet-101 |2016 |~600 × 1000 |76.4| 73.8|
+|R-FCN| ResNet-101| 2016| ~600 × 1000| 80.5| 77.6|
+|OHEM| VGG-16| 2016| ~600 × 1000|74.6 |71.9|
+|HyperNet | VGG-16| 2016| ~600 × 1000| 76.3| 71.4|
+|ION | VGG-16| 2016| ~600 × 1000| 79.2| 76.4|
+|CRAFT |VGG-16 |2016| ~600 × 1000| 75.7 |71.3†
+|LocNet | VGG-16 |2016| ~600 × 1000 |78.4 |74.8†|
+|R-FCN w DCN | ResNet-101 |2017 |~600 × 1000 |82.6| -|
+|CoupleNet | ResNet-101| 2017 |~600 × 1000| 82.7| 80.4|
+|DeNet512(wide) | ResNet-101| 2017| ~512 × 512 |77.1| 73.9|
+|FPN-Reconfig | ResNet-101| 2018| ~600 × 1000| 82.4| 81.1|
+|DeepRegionLet| ResNet-101 |2018| ~600 × 1000| 83.3| 81.3|
+|DCN+R-CNN | ResNet-101+ResNet-152| 2018| Arbitrary| 84.0 |81.2|
+|YOLOv1| VGG16 |2016 |448 × 448| 66.4| 57.9|
+|SSD512| VGG-16 |2016 |512 × 512| 79.8| 78.5|
+|YOLOv2 | Darknet 2017| 544 × 544| 78.6| 73.5|
+|DSSD513| ResNet-101| 2017 |513 × 513| 81.5| 80.0|
+|DSOD300 | DS/64-192-48-1| 2017 |300 × 300| 77.7 |76.3|
+|RON384 | VGG-16| 2017 |384 × 384| 75.4| 73.0|
+|STDN513 | DenseNet-169| 2018 |513 × 513 |80.9| -|
+|RefineDet512 | VGG-16 |2018 |512 × 512 |81.8 |80.1|
+|RFBNet512  |VGG16 |2018 |512 × 512| 82.2| -|
+|CenterNet | ResNet101 |2019| 512 × 512 |78.7| -|
+|CenterNet | DLA | 2019| 512 × 512| 80.7 |-|
+
+*∗: This entry reports the the model is trained with VOC2007 trainval sets only.*
+*†: This entry reports the the model are trained with VOC2012 trainval sets only .*
+
 ### 5.2 MSCOCO
 
 |Method |Backbone |Year |AP |AP$_{50}$ |AP$_{75}$ |AP$_{S}$ |AP$_{M}$ |AP$_{L}$|
