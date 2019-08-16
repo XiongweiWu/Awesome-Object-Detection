@@ -24,7 +24,7 @@ After completing this survey, we decided to release the collected resource of ob
     - [6.1 Anchor Design](#61-Anchor-Design)
         - [6.1.1 Anchor-Free Methods](#611-Anchor-Free-Methods)
         - [6.1.2 Anchor-Refinement Methods](#611-Anchor-Refinement-Methods)
-    - [6.2 AutoML](#62-AutoML)
+    - [6.2 AutoML Detection](#62-AutoML-Detection)
     - [6.3 Low-shot Detection](#63-Low-shot-Detection)
     - [6.4 Others](#64-Others)
 * [7. Other Resources](#6-Other-Resources)
@@ -235,16 +235,22 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 1. **Feature selective anchor-free module for single-shot object detection**, *C. Zhu, Y. He, M. Savvides*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Feature_Selective_Anchor-Free_Module_for_Single-Shot_Object_Detection_CVPR_2019_paper.pdf)], `FSFA`
 2. **Scratchdet: Exploring to train single-shot object detectors from scratch**, *R. Zhu, S. Zhang, X. Wang, L. Wen, H. Shi, L. Bo, T. Mei*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_ScratchDet_Training_Single-Shot_Object_Detectors_From_Scratch_CVPR_2019_paper.pdf)], [[Caffe](https://github.com/KimSoybean/ScratchDet)], `Scratchdet`
 3. **Bottom-up object detection by grouping extreme and center points**, *X. Zhou, J. Zhuo, P. Krahenbuhl*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Bottom-Up_Object_Detection_by_Grouping_Extreme_and_Center_Points_CVPR_2019_paper.pdf)], [[Pytorch](https://github.com/xingyizhou/ExtremeNet)], `ExtremeNet`
+4. **Towards Accurate One-Stage Object Detection with AP-Loss**,
+*K. Chen, J. Li, W. Lin, J. See, J. Wang, L. Duan, Z. Chen, C. He, J. Zou*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Towards_Accurate_One-Stage_Object_Detection_With_AP-Loss_CVPR_2019_paper.pdf)], `AP-Loss`
 
 **2019 ICCV**
 
 1. **Fcos: Fully convolutional one-stage object detection**, *Z. Tian, C. Shen, H. Chen, T. He*, [[OpenAccess](https://arxiv.org/abs/1904.01355)], [[Pytorch](https://github.com/tianzhi0549/FCOS)], `FCOS`
+2. **RepPoints: Point Set Representation for Object Detection**, *Z. Yang, S. Liu, H. Hu, L. Wang, S. Lin*, [[OpenAccess](https://arxiv.org/abs/1904.11490)], `RepPoints`
 
 **2019 Others**
 
 1. **Objects as points**, *X. Zhou, D. Wang, P. Krahenb ¨ uhl*, in: arXiv preprint arXiv:1904.07850, 2019, [[Arxiv](https://arxiv.org/pdf/1904.07850)], [[Pytorch](https://github.com/xingyizhou/CenterNet)], `CenterNet`
 2. **Centernet: Keypoint triplets for object detection**, *K. Duan, S. Bai, L. Xie, H. Qi, Q. Huang, Q. Tian*, in: arXiv preprint arXiv:1904.08189, 2019, [[Arxiv](https://arxiv.org/pdf/1904.08189)], [[Pytorch](https://github.com/Duankaiwen/CenterNet)], `CenterNet`
 3. **CornerNet-Lite: Efficient Keypoint Based Object Detection**, *Hei Law, Yun Teng, Olga Russakovsky, Jia Deng*, in: arXiv preprint arXiv:1904.08900, 2019, [[OpenAccess](https://arxiv.org/abs/1904.08900)], [[Pytorch](https://github.com/princeton-vl/CornerNet-Lite)], `CornerNet-Lite`
+4. **Revisiting Feature Alignment for One-stage Object Detection**, *Y. Chen, C. Han, N. Wang, Z. Zhang*, in: arXiv preprint arXiv:1908.01570, 2019, [[OpenAccess](https://arxiv.org/abs/1908.01570)], `AlignDet`
+5. **PosNeg-Balanced Anchors with Aligned Features for Single-Shot Object Detection**, *Qiankun Tang, Shice Liu, Jie Li, Yu Hu*, in: arXiv preprint arXiv:1908.03295, 2019, [[OpenAccess](https://arxiv.org/abs/1908.03295)], [[Pytorch](https://github.com/zxhr2793/PADet)], `PADet`
+6. **Cascade RetinaNet: Maintaining Consistency for Single-Stage Object Detection**, *Q. Tang, S. Liu, J. Li, Y. Hu*, in: BMVC, 2019, [[OpenAccess](https://arxiv.org/abs/1907.06881)], `CaRetinaNet`
 
 
 
@@ -350,6 +356,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 6. **Feature selective anchor-free module for single-shot object detection**, *C. Zhu, Y. He, M. Savvides*, in: CVPR, 2019. [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Feature_Selective_Anchor-Free_Module_for_Single-Shot_Object_Detection_CVPR_2019_paper.pdf)], `FSFA`
 7. **Fcos: Fully convolutional one-stage object detection**, *Z. Tian, C. Shen, H. Chen, T. He*, in: ICCV, 2019. [[OpenAccess](https://arxiv.org/abs/1904.01355)], [[Pytorch](https://github.com/tianzhi0549/FCOS)], `FCOS`
 8. **CornerNet-Lite: Efficient Keypoint Based Object Detection**, *Hei Law, Yun Teng, Olga Russakovsky, Jia Deng*, in: arXiv preprint arXiv:1904.08900, 2019. [[OpenAccess](https://arxiv.org/abs/1904.08900)], [[Pytorch](https://github.com/princeton-vl/CornerNet-Lite)], `CornerNet-Lite`
+9. **RepPoints: Point Set Representation for Object Detection**, *Z. Yang, S. Liu, H. Hu, L. Wang, S. Lin*, in: ICCV, 2019. [[OpenAccess](https://arxiv.org/abs/1904.11490)], `RepPoints`
 
 #### 6.1.2 Anchor-Refinement Methods
 
@@ -359,9 +366,13 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 4. **Metaanchor: Learning to detect objects with customized anchors**, *T. Yang, X. Zhang, Z. Li, W. Zhang, J. Sun*, in: NeurIPS, 2018.  [[OpenAccess](https://papers.nips.cc/paper/7315-metaanchor-learning-to-detect-objects-with-customized-anchors)], `MetaAnchor`
 5. **Derpn: Taking a further step toward more general object detection**, *L. J. Z. X. Lele Xie, Yuliang Liu*, in: AAAI, 2019. [[OpenAccess](https://www.aaai.org/ojs/index.php/AAAI/article/view/4936/4809)], [[Caffe](https://github.com/HCIILAB/DeRPN)], `DeRPN`
 6. **Region Proposal by Guided Anchoring**, *J. Wang, K. Chen, S. Yang, C. C. Loy, D. Lin*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.pdf)], [[mmdetection](https://github.com/open-mmlab/mmdetection)]
+7. **Revisiting Feature Alignment for One-stage Object Detection**, *Y. Chen, C. Han, N. Wang, Z. Zhang*, in: arXiv preprint arXiv:1908.01570, 2019, [[OpenAccess](https://arxiv.org/abs/1908.01570)], `AlignDet`
+8. **PosNeg-Balanced Anchors with Aligned Features for Single-Shot Object Detection**, *Qiankun Tang, Shice Liu, Jie Li, Yu Hu*, in: arXiv preprint arXiv:1908.03295, 2019, [[OpenAccess](https://arxiv.org/abs/1908.03295)], [[Pytorch](https://github.com/zxhr2793/PADet)], `PADet`
+9. **Cascade RetinaNet: Maintaining Consistency for Single-Stage Object Detection**, *Q. Tang, S. Liu, J. Li, Y. Hu*, in: BMVC, 2019, [[OpenAccess](https://arxiv.org/abs/1907.06881)], `CaRetinaNet`
 
 
-### 6.2 AutoML
+
+### 6.2 AutoML Detection
 
 1. **Nas-fpn: Learning scalable feature pyramid architecture for object detection**, *G. Ghiasi, T.-Y. Lin, Q. V. Le*, [[OpenAccess](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ghiasi_NAS-FPN_Learning_Scalable_Feature_Pyramid_Architecture_for_Object_Detection_CVPR_2019_paper.pdf)], [[TensorFlow](https://github.com/DetectionTeamUCAS/NAS_FPN_Tensorflow)], `NAS-FPN`
 2. **Detnas: Neural architecture search on object detection**, *Y. Chen, T. Yang, X. Zhang, G. Meng, C. Pan, J. Sun*, in: arXiv preprint arXiv:1903.10979, 2019. [[OpenAccess](https://arxiv.org/abs/1903.10979)], `DetNas`
