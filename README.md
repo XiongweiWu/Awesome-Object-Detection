@@ -419,7 +419,6 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 |DCN-v2++| ResNet-101| 2019 |46.0| 67.9| 50.8 |27.8| 49.1 |59.5|
 |TridentNet| ResNet-101| 2019| 42.7 |63.6 |46.5| 23.9| 46.6| 56.6|
 |TridentNet | ResNet-101-Deformable |2019 |48.4 |69.7| 53.5| 31.8| 51.3| 60.3|
-|---|
 |**One-stage**|
 |SSD512 | VGG-16 |2016| 28.8 |48.5| 30.3| 10.9| 31.8 |43.5|
 |RON384++| VGG-16 |2017| 27.4| 49.5| 27.1| -| -| -|
