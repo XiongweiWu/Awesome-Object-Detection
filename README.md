@@ -1,5 +1,12 @@
 # Awesome-Object-Detection
 
+*Last Update: 2019/08/16*
+
+**TODO:**
+
+- [ ] Add SOTA Table
+- [ ] Fix the link and format issues
+
 A list of awesome object detection resources.
 
 Recently we released *[survey](https://arxiv.org/abs/1908.03673)* to the community. In this survey, we systematically analyze the existing object detection frameworks and organize the survey into three major parts: (i) detection components, (ii) learning strategies, and (iii) applications & benchmarks. In the survey, we cover a variety of factors affecting the detection performance in detail, such as detector architectures, feature learning, proposal generation, sampling strategies, etc. Finally, we discuss several future directions to facilitate and spur future research for visual object detection with deep learning.  
@@ -342,6 +349,10 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 ### 5.2 Pascal VOC
 
 
+
+
+
+
 ## 6. Future Work
 
 ### 6.1 Anchor Design
@@ -398,5 +409,6 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 - [Object Detection](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
 - [hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
 - [amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
+
 
 
