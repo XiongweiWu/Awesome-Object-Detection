@@ -367,7 +367,6 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 |FPN-Reconfig | ResNet-101| 2018| ~600 × 1000| 82.4| 81.1|
 |DeepRegionLet| ResNet-101 |2018| ~600 × 1000| 83.3| 81.3|
 |DCN+R-CNN | ResNet-101+ResNet-152| 2018| Arbitrary| 84.0 |81.2|
-|--- ---|
 |**One-stage**|
 |YOLOv1| VGG16 |2016 |448 × 448| 66.4| 57.9|
 |SSD512| VGG-16 |2016 |512 × 512| 79.8| 78.5|
@@ -420,7 +419,7 @@ If this repository is useful, please cite our [survey](https://arxiv.org/abs/190
 |DCN-v2++| ResNet-101| 2019 |46.0| 67.9| 50.8 |27.8| 49.1 |59.5|
 |TridentNet| ResNet-101| 2019| 42.7 |63.6 |46.5| 23.9| 46.6| 56.6|
 |TridentNet | ResNet-101-Deformable |2019 |48.4 |69.7| 53.5| 31.8| 51.3| 60.3|
-|--- ---|
+|---|
 |**One-stage**|
 |SSD512 | VGG-16 |2016| 28.8 |48.5| 30.3| 10.9| 31.8 |43.5|
 |RON384++| VGG-16 |2017| 27.4| 49.5| 27.1| -| -| -|
