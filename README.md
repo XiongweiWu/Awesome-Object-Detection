@@ -23,18 +23,18 @@ After completing this survey, we decided to release the collected resource of ob
 * [4. Benchmarks](#4-Benchmarks)
     - [4.1 Generic Detection Datasets](#41-Generic-Detection-Datasets)
     - [4.2 Face Detection Datasets](#42-Face-Detection-Datasets)
-    - [4.3 Pedestrian Detection Datasets](#41-Pedestrian-Detection-Datasets)
+    - [4.3 Pedestrian Detection Datasets](#43-Pedestrian-Detection-Datasets)
 * [5. SOTA](#5-SOTA)
     - [5.1 Pascal VOC](#51-Pascal-VOC)
     - [5.2 MSCOCO](#52-MSCOCO)
 * [6. Emerging Ideas](#6-Emerging-Ideas)
     - [6.1 Anchor Design](#61-Anchor-Design)
         - [6.1.1 Anchor-Free Methods](#611-Anchor-Free-Methods)
-        - [6.1.2 Anchor-Refinement Methods](#611-Anchor-Refinement-Methods)
+        - [6.1.2 Anchor-Refinement Methods](#612-Anchor-Refinement-Methods)
     - [6.2 AutoML Detection](#62-AutoML-Detection)
     - [6.3 Low-shot Detection](#63-Low-shot-Detection)
     - [6.4 Others](#64-Others)
-* [7. Other Resources](#6-Other-Resources)
+* [7. Other Resources](#7-Other-Resources)
 
 **Citing this work**
 
